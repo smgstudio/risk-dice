@@ -1,0 +1,16 @@
+{
+    "name": "Risk.Dice",
+    "rootNamespace": "Risk.Dice",
+    "references": [
+        "GUID:fb77848a71f476f4e84f012520a61add"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
