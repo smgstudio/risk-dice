@@ -1,11 +1,11 @@
 
 
-# risk-dice-test
+# risk-dice
 This is the dice code used in the [RISK: Global Domination](https://www.hasbrorisk.com/invite) game written in C# for Unity as of version 3.3.
 
 - Calculates all outcome probabilities for a given Risk battle using brute-force
 - Includes the Balanced Blitz dice mode algorithm
-- Supports dice augments seen in the game such as Capitols & Zombies
+- Supports dice augments seen in the game such as Capitals & Zombies
 - Supports blitz attack limit (Stop Until)
 - Includes six different RNG implementations
 
