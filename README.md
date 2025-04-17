@@ -1,6 +1,8 @@
 
 
 # risk-dice
+**Edit: we have big changes to this code going live in v3.20 around August this year - read more about what's coming [here](https://store.steampowered.com/news/app/1128810/view/640181878351987970).**
+
 This is the dice code used in the [RISK: Global Domination](https://www.hasbrorisk.com/invite) game written in C# for Unity as of version 3.3.
 
 - Calculates all outcome probabilities for a given Risk battle using brute-force
