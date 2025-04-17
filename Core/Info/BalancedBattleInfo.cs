@@ -36,14 +36,14 @@ using UnityEngine.Assertions;
 namespace Risk.Dice
 {
     [Serializable]
-    public sealed class BalancedBattleInfo : BattleInfo
+    public sealed class BalancedBattleInfo : FastBattleInfo
     {
         [SerializeField] private BalanceConfig _balanceConfig;
         [SerializeField] private bool _balanceApplied;
 
         public override bool IsReady => _balanceApplied && base.IsReady;
 
-        public BalancedBattleInfo (BattleInfo battleInfo, BalanceConfig balanceConfig) : base(battleInfo.BattleConfig, battleInfo.RoundConfig)
+        public BalancedBattleInfo (FastBattleInfo battleInfo, BalanceConfig balanceConfig) : base(battleInfo.BattleConfig, battleInfo.RoundConfig)
         {
             _balanceConfig = balanceConfig;
 
